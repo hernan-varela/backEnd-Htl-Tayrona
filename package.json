@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -L",
+    "start": "node index.js",
     "test": "mocha -w ./tests/**/*.spec.js"
   },
   "author": "Henry",
@@ -24,6 +24,7 @@
     "express": "^4.17.1",
     "install": "^0.13.0",
     "mongoose": "^7.0.3",
+
     "morgan": "^1.10.0",
     "nodemailer": "^6.9.1",
     "npm": "^9.6.4",
